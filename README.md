@@ -4,7 +4,9 @@ This repository illustrates how to create a simple echo server with the lightwei
 
 * The program leverages the user-space TCP/IP stack provided by lwIP
 
-* The solution is based on the `tcpecho_raw` example of LwIP, which uses the "raw" API of lwIP and does not require a socket interface (NO_SYS is set to 1)
+* The solution is based on the `tcpecho_raw` example of LwIP, which uses the "raw" API of lwIP
+
+* The application logic of the example does not require a socket interface (NO_SYS is set to 1)
 
 * The echo server can be accessed locally on a Linux host by a `tap0` interface
 
