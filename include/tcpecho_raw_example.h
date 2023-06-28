@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2001, 2002 Swedish Institute of Computer Science.
+ * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
  * All rights reserved. 
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -26,8 +26,10 @@
  *
  * This file is part of the lwIP TCP/IP stack.
  * 
- * Author: Adam Dunkels <adam@sics.se>
- *
  */
+#ifndef LWIP_TCPECHO_RAW_EXAMPLE_H
+#define LWIP_TCPECHO_RAW_EXAMPLE_H
 
+void tcpecho_raw_init(u16_t portnumber);
 
+#endif /* LWIP_TCPECHO_RAW_EXAMPLE_H */

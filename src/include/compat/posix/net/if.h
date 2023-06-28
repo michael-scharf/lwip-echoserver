@@ -1,7 +1,12 @@
+/**
+ * @file
+ * This file is a posix wrapper for lwip/if_api.h.
+ */
+
 /*
- * Copyright (c) 2001, 2002 Swedish Institute of Computer Science.
- * All rights reserved. 
- * 
+ * Copyright (c) 2017 Joel Cunningham, Garmin International, Inc. <joel.cunningham@garmin.com>
+ * All rights reserved.
+ *
  * Redistribution and use in source and binary forms, with or without modification, 
  * are permitted provided that the following conditions are met:
  *
@@ -25,9 +30,7 @@
  * OF SUCH DAMAGE.
  *
  * This file is part of the lwIP TCP/IP stack.
- * 
- * Author: Adam Dunkels <adam@sics.se>
  *
  */
 
-
+#include "lwip/if_api.h"
