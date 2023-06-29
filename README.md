@@ -1,6 +1,6 @@
 # LwIP Echoserver (lwip-echoserver)
 
-This repository illustrates how to create a simple echo server with the lightweight TCP/IP (lwIP) stack on a Linux host.
+This repository illustrates how to create a simple TCP echo server with the lightweight TCP/IP (lwIP) stack on a Linux host.
 
 * The program leverages the user-space TCP/IP stack provided by lwIP
 
@@ -8,7 +8,7 @@ This repository illustrates how to create a simple echo server with the lightwei
 
 * The application logic of the example does not require a socket interface (`NO_SYS` is set to 1)
 
-* The echo server can be accessed locally on a Linux host by a `tap0` interface
+* The TCP echo server can be accessed locally on a Linux host by a `tap0` interface
 
 References:
 
