@@ -1,6 +1,6 @@
 # LwIP Echoserver (lwip-echoserver)
 
-This repository illustrates how to create a simple echo server with the lightweight TCP/IP stack on a Linux host.
+This repository illustrates how to create a simple echo server with the lightweight TCP/IP (lwIP) stack on a Linux host.
 
 * The program leverages the user-space TCP/IP stack provided by lwIP
 
@@ -28,7 +28,7 @@ Contact: michael.scharf@ktlab.de
 
 * Build tools for the C programming language must be installed (i.e., `gcc`, `make`, etc.)
 
-* Root priviliges are required for running the server (e.g., by `sudo`)
+* Root privileges are required for running the TCP echo server (e.g., by `sudo`)
 
 ### Compilation and start
 
