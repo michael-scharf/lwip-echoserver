@@ -16,7 +16,7 @@
         {
             "label": "run",
             "type":"shell",
-            "command": "bin/echoserver",
+            "command": "sudo bin/echoserver",
             "problemMatcher": [],
             "presentation": {
                 "echo": true,
