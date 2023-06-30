@@ -64,9 +64,7 @@ Instead of manually running `make`, the project can also be compiled in
 Visual Studio Code (vscode).
 
 To simplify use, the `run` command (e.g., assigned to the key F5) runs
-the echo server binary.
-
+the echo server binary using `sudo`.
 
 [lwIP]: https://savannah.nongnu.org/projects/lwip/
 [fork]: https://github.com/heiher/lwip
-
