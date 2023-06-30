@@ -58,5 +58,15 @@ Any text client can access the echo server locally, e.g., the Linux tool `nc`:
 nc 192.168.1.1 60000
 ```
 
+### Visual Studio Code Integration
+
+Instead of manually running `make`, the project can also be compiled in
+Visual Studio Code (vscode).
+
+To simplify use, the `run` command (e.g., assigned to the key F5) runs
+the echo server binary.
+
+
 [lwIP]: https://savannah.nongnu.org/projects/lwip/
 [fork]: https://github.com/heiher/lwip
+
