@@ -49,13 +49,13 @@ sudo bin/echoserver
 ```
 
 In the default configuration, the TCP echo server uses a local `tap0` interface:
-* IP address: 192.168.1.1
+* IP address: 192.0.2.1
 * Port number: 60000
 
 Any text client can access the echo server locally, e.g., the Linux tool `nc`:
 
 ```bash
-nc 192.168.1.1 60000
+nc 192.0.2.1 60000
 ```
 
 ### Visual Studio Code Integration
