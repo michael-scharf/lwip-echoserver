@@ -1,0 +1,12 @@
+{
+    "code-runner.enableAppInsights": false,
+    "code-runner.cwd": "$workspaceRoot",
+    "code-runner.showExecutionMessage": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.defaultLanguage": "c",
+    "code-runner.executorMap": {
+        "c": "sudo bin/echoserver"
+    }
+}
